@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Areeb Chaudhary</title>
+
+  <!-- ================================ FavIcon ========================================== -->
+  <link rel="shortcut icon" href="./assets/images/icon.png" type="image/svg+xml">
+
+  <!-- ================================ Custom CSS Link ========================================== -->
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- ================================ Google Font Link ========================================== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top" class="dark_theme">
+
+  <!-- ================================ Header ========================================== -->
+
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="#">Areeb<span>.</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+
+        <button class="theme-toggle" aria-label="Toggle Theme" title="Toggle Theme">
+          <ion-icon name="sunny-outline" class="theme-icon sun"></ion-icon>
+          <ion-icon name="moon-outline" class="theme-icon moon"></ion-icon>
+        </button>
+
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+      <!-- ================================ Live Date and Time ========================================== -->
+
+
+      <div class="live-time">
+        <div class="time-display">
+          <span id="current-time">00:00:00</span>
+          <span id="current-date">Monday, 1 Jan 2024</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <!-- ================================ Main Part ========================================== -->
+
+
+  <main>
+    <article class="container">
+
+      <!-- ================================ Hero Section ========================================== -->
+
+
+      <section class="hero" id="home">
+
+        <div class="coding-icons">
+          <div class="coding-icon">
+            <ion-icon name="logo-html5"></ion-icon>
+          </div>
+          <div class="coding-icon">
+            <ion-icon name="logo-css3"></ion-icon>
+          </div>
+          <div class="coding-icon">
+            <ion-icon name="logo-javascript"></ion-icon>
+          </div>
+          <div class="coding-icon">
+            <ion-icon name="logo-react"></ion-icon>
+          </div>
+          <div class="coding-icon">
+            <ion-icon name="logo-wordpress"></ion-icon>
+          </div>
+        </div>
+
+        <div class="hero-content">
+
+          <h2 class="h2 hero-title">I Design and Develop Modern Web Experiences.</h2>
+
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+
+        </div>
+
+        <ul class="hero-social-list">
+
+          <li>
+            <a href="https://www.facebook.com/daniyal.shair.1/
+" target="_blank" class="hero-social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+
+              <div class="tooltip">Facebook</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/areeb9623/
+" target="_blank" class="hero-social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+
+              <div class="tooltip">Instagram</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://x.com" target="_blank" class="hero-social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+
+              <div class="tooltip">Twitter</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/muhammad-areeb-ch/
+" target="_blank" class="hero-social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+
+              <div class="tooltip">Linkedin</div>
+            </a>
+          </li>
+
+        </ul>
+
+        <a href="#stats" class="scroll-down">Scroll</a>
+
+      </section>
+
+
+      <!-- ================================ About Section ========================================== -->
+
+
+      <section class="about" id="about">
+
+        <figure class="about-banner">
+          <img src="./assets/images/ab.png" alt="A man in a alice blue shirt with a thinking expression"
+            class="w-100">
+        </figure>
+
+        <div class="about-content section-content">
+
+          <p class="section-subtitle">About me</p>
+
+          <h2 class="h3 section-title">Meet the Developer Behind the Code</h2>
+
+          <p class="section-text">
+            I’m Areeb Chaudhary, a passionate Front-End Developer & WordPress Designer focused on building responsive,
+            intuitive, and visually engaging websites. Skilled in HTML, CSS, JavaScript, React, Next.js, and WordPress,
+            I create seamless digital experiences that balance performance and design. <br><br>
+            I love turning creative ideas into clean, efficient code and designing interfaces that connect with users.
+            With experience in UI/UX, REST APIs, and Git workflows, I continuously expand my skills to stay ahead in the
+            evolving web landscape.
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-secondary" onclick="scrollToContact()">Hire me</button>
+
+            <button class="btn btn-primary" id="downloadCV">Download cv</button>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- ================================ Skills Section ========================================== -->
+
+
+      <section class="skills" id="skills">
+
+        <div class="skills-content section-content">
+
+          <p class="section-subtitle">My skills</p>
+
+          <h2 class="h3 section-title">What My Programming Skills Include</h2>
+
+          <p class="section-text">
+            I develop simple, intuitive, and responsive user interfaces that help users accomplish tasks efficiently
+            with less effort and time.
+          </p>
+
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>Skills</button>
+          </div>
+
+        </div>
+
+        <div class="skills-box" data-skills-box>
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML5</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/html5.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS3</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/css3.png" alt="CSS3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/javascript.png" alt="JavaScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">TypeScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/typescript.png" alt="TypeScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">jQuery</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/jquery.png" alt="jQuery logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Bootstrap</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/bootstrap.png" alt="Bootstrap logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Tailwind CSS</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/Tailwind Css.png" alt="Bootstrap logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Angular</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/angular.png" alt="Angular logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">React</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/react.png" alt="React logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Next JS</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/Next.png" alt="React logo">
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SASS</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/sass.png" alt="SASS logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/git.png" alt="SASS logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">WordPress</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/WordPress.png" alt="SASS logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Shadcn UI</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/shadcn-ui.png" alt="SASS logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Figma</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/Figma.png" alt="SASS logo">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+      <!-- ================================ Services Section ========================================== -->
+      <section class="services" id="services">
+        <div class="container section-content">
+          <p class="section-subtitle">My Expertise</p>
+          <h2 class="h3 section-title">Professional Services</h2>
+          <p class="section-text">
+            Leveraging modern technologies and industry best practices to deliver high-quality digital solutions.
+            Specializing in responsive web development, WordPress customization, and user-centric design.
+          </p>
+
+          <div class="services-grid">
+            <!-- ================================ Card 01 ========================================== -->
+            <div class="service-card">
+              <div class="service-icon">
+                <ion-icon name="logo-react"></ion-icon>
+              </div>
+              <h3 class="service-title">React/Next.js Development</h3>
+              <p class="service-text">
+                Building modern, scalable web applications using React.js, Next.js, and Redux. Server-side rendering,
+                component-based architecture, and state management solutions.
+              </p>
+
+              <a href="#contact" class="service-btn">Start Project</a>
+            </div>
+
+            <!-- ================================ Card 02 ========================================== -->
+            <div class="service-card">
+              <div class="service-icon">
+                <ion-icon name="logo-wordpress"></ion-icon>
+              </div>
+              <h3 class="service-title">WordPress</h3>
+              <p class="service-text">
+                Custom WordPress themes, and WooCommerce solutions. From business websites to
+                e-commerce stores with responsive design.
+              </p>
+
+              <a href="#contact" class="service-btn">Get Custom Quote</a>
+            </div>
+
+            <!-- ================================ Card 03 ========================================== -->
+            <div class="service-card">
+              <div class="service-icon">
+                <ion-icon name="logo-angular"></ion-icon>
+              </div>
+              <h3 class="service-title">Angular Development</h3>
+              <p class="service-text">
+                Enterprise-level applications using Angular framework. REST API integration, CRUD operations, and
+                responsive dashboard development based on professional experience.
+              </p>
+
+              <a href="#contact" class="service-btn">Consult Now</a>
+            </div>
+
+            <!-- ================================ Card 04 ========================================== -->
+            <div class="service-card">
+              <div class="service-icon">
+                <ion-icon name="color-palette-outline"></ion-icon>
+              </div>
+              <h3 class="service-title">UI/UX Design</h3>
+              <p class="service-text">
+                Creating intuitive, user-friendly interfaces with strong focus on user experience. Wireframing,
+                prototyping, and responsive design implementation.
+              </p>
+
+              <a href="#contact" class="service-btn">View Designs</a>
+            </div>
+
+            <!-- ================================ Card 05 ========================================== -->
+            <div class="service-card">
+              <div class="service-icon">
+                <ion-icon name="code-slash-outline"></ion-icon>
+              </div>
+              <h3 class="service-title">Front-End Development</h3>
+              <p class="service-text">
+                Building responsive websites with HTML5, CSS3, JavaScript (ES6+), and jQuery. Focus on performance,
+                accessibility, and cross-browser compatibility.
+              </p>
+
+              <a href="#contact" class="service-btn">Discuss Project</a>
+            </div>
+
+            <!-- ================================ Card 06 ========================================== -->
+            <div class="service-card">
+              <div class="service-icon">
+                <ion-icon name="speedometer-outline"></ion-icon>
+              </div>
+              <h3 class="service-title">Website Optimization</h3>
+              <p class="service-text">
+                Performance optimization, speed enhancement, and SEO improvements. Core Web Vitals optimization and best
+                practices implementation.
+              </p>
+
+              <a href="#contact" class="service-btn">Optimize Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ================================ Projects Section ========================================== -->
+
+
+      <section class="project" id="portfolio">
+        <ul class="project-list">
+          <li>
+            <div class="project-content section-content">
+              <p class="section-subtitle">My Works</p>
+              <h2 class="h3 section-title">My Recent Projects</h2>
+              <p class="section-text">
+                I've worked on a variety of front-end and WordPress projects, focusing on clean design, responsive
+                layouts, and smooth user experiences.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a href="https://resturant-website-wine.vercel.app/
+" target="_blank" class="project-card">
+              <figure class="card-banner">
+                <img src="./assets/images/Coffee_ressturent.png" class="w-100"
+                  alt="A macintosh on a yellow background.">
+              </figure>
+              <div class="card-tech">
+                <div class="tech-text">HTML</div>
+                <div class="tech-text">CSS</div>
+                <div class="tech-text">JAVASCRIPT</div>
+                <div class="tech-text">+3 more....</div>
+              </div>
+              <div class="card-content">
+                <h3 class="h4 card-title">Chaudhary's Chai & Cheese</h3>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://freshbite-120.netlify.app/
+" target="_blank" class="project-card">
+              <figure class="card-banner">
+                <img src="./assets/images/React Project.png" class="w-100"
+                  alt="On a Blue background, a Wacom and a mouse.">
+              </figure>
+              <div class="card-tech">
+                <div class="tech-text">REACT</div>
+                <div class="tech-text">TAILWIND CSS</div>
+                <div class="tech-text">REDUX</div>
+                <div class="tech-text">+5 more...</div>
+              </div>
+              <div class="card-content">
+                <h3 class="h4 card-title">Fresh Bite | Food Ordering</h3>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://coffee-ninja.netlify.app/
+" target="_blank" class="project-card">
+              <figure class="card-banner">
+                <img src="./assets/images/Ninja_coffee.png" class="w-100"
+                  alt="A Cassette tape on a mellow apricot background.">
+              </figure>
+              <div class="card-tech">
+                <div class="tech-text">HTML</div>
+                <div class="tech-text">CSS</div>
+                <div class="tech-text">JAVASCRIPT</div>
+                <div class="tech-text">+3 more....</div>
+              </div>
+              <div class="card-content">
+                <h3 class="h4 card-title">Coffee - Caffeine Master</h3>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://areeb-chaudhary.netlify.app/" target="_blank" class="project-card">
+              <figure class="card-banner">
+                <img src="./assets/images/personal_portfolio.png" class="w-100"
+                  alt="Blue digital watch on a dark liver background.">
+              </figure>
+              <div class="card-tech">
+                <div class="tech-text">HTML</div>
+                <div class="tech-text">CSS</div>
+                <div class="tech-text">JAVASCRIPT</div>
+                <div class="tech-text">+5 more...</div>
+              </div>
+              <div class="card-content">
+                <h3 class="h4 card-title">Personal Portfolio</h3>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/muhammad-areeb-ch/
+" target="_blank" rel="noopener noreferrer" class="project-card linkedin-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/linkedin_project_center_500x351.png" class="w-100"
+                  alt="View more projects on LinkedIn">
+              </figure>
+
+              <div class="card-tech">
+                <div class="tech-text">LinkedIn</div>
+                <div class="tech-text">Live Projects</div>
+                <div class="tech-text">Experience</div>
+              </div>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">More Projects</h3>
+              </div>
+
+            </a>
+          </li>
+
+        </ul>
+      </section>
+      <!-- ================================ Contact Section ========================================== -->
+
+
+      <section class="contact" id="contact">
+
+        <div class="contact-content section-content">
+
+          <p class="section-subtitle">Contact</p>
+
+          <h2 class="h3 section-title">Have a Project in Mind? Let’s Talk!
+          </h2>
+
+          <p class="section-text">
+            Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Address:</h3>
+
+                <address class="contact-info">
+                  Punjab , Pakistan
+                </address>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Phone:</h3>
+
+                <a href="tel:+923091953165" class="contact-info">+92 309 1953165</a>
+
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Email:</h3>
+
+                <a href="mailto:codebyareeb@gmail.com" class="contact-info">codebyareeb@gmail.com</a>
+
+              </div>
+
+            </li>
+
+            <li>
+              <ul class="contac-social-list">
+
+                <li>
+                  <a href="https://www.facebook.com/daniyal.shair.1/
+" target="_blank" class="contact-social-link">
+                    <div class="tooltip">Facebook</div>
+
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://x.com" target="_blank" class="contact-social-link">
+                    <div class="tooltip">Twitter</div>
+
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/in/muhammad-areeb-ch/
+" target="_blank" class="contact-social-link">
+                    <div class="tooltip">Linkedin</div>
+
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/areeb9623/
+" target="_blank" class="contact-social-link">
+                    <div class="tooltip">Instagram</div>
+
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+        <!-- ================================ Contact Form ========================================== -->
+
+        <form action="" class="contact-form">
+
+          <div class="form-wrapper">
+
+            <label for="name" class="form-label">Name</label>
+
+            <div class="input-wrapper">
+
+              <input type="text" name="name" id="name" required placeholder="e.g Areeb Chaudhary" class="input-field">
+
+              <ion-icon name="person-circle"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="email" class="form-label">Email</label>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email" id="email" required placeholder="e.g areeb@gmail.com"
+                class="input-field">
+
+              <ion-icon name="mail"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="phone" class="form-label">Phone</label>
+
+            <div class="input-wrapper">
+
+              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+
+              <ion-icon name="call"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="message" class="form-label">Message</label>
+
+            <div class="input-wrapper">
+
+              <textarea name="message" id="message" required placeholder="Write message..."
+                class="input-field"></textarea>
+
+              <ion-icon name="chatbubbles"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+
+        </form>
+
+      </section>
+
+      <div id="toast" class="toast"></div>
+
+
+    </article>
+  </main>
+
+
+  <!-- ================================ Footer Section ========================================== -->
+
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="h1 logo">
+        <a href="#">
+          Areeb<span>.</span>
+        </a>
+      </p>
+
+      <p class="copyright">
+        &copy; 2025 <a href="#">Areeb Chaudhary</a>. All rights reserved
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- ================================GO TO Top ========================================== -->
+
+
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+  <!-- ================================ ScrollReveal CDN ========================================== -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- ================================ Toastify Links ========================================== -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+  <!-- ================================ EmailJS CDN ========================================== -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- ================================ Ionicons Links ========================================== -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- ================================ Custom JavaScript  ========================================== -->
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
